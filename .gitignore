@@ -22,3 +22,49 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Terraform logs
+crash.log
+crash.*.log
+*.tfplan
+*.tfplan.*
+
+# Terraform directories
+.terraform/
+.terraform.d/
+.terraform.lock.hcl
+
+# Local and sensitive files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive configuration files
+secret.tfvars
+terraform.tfvars
+
+# State files
+terraform.tfstate
+terraform.tfstate.backup
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+
+
+
+# .gitignore
+.env
+
+aws/
